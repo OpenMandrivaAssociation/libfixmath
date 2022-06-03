@@ -13,6 +13,7 @@ URL: https://github.com/PetteriAimonen/libfixmath
 License: BSD
 Group: System/Libraries
 BuildRequires: cmake ninja
+BuildRequires: atomic-devel
 
 %description
 Libfixmath implements Q16.16 format fixed point operations in C.
