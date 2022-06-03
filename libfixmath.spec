@@ -20,6 +20,7 @@ Libfixmath implements Q16.16 format fixed point operations in C.
 %package -n %{devname}
 Summary: Development files for %{name}
 Group: Development/C
+Provides: fixmath-devel = %{EVRD}
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
