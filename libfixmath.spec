@@ -1,9 +1,12 @@
 # static-only library...
 %define debug_package %{nil}
 %define devname %mklibname fixmath -d
+# Static library should be usable with gcc as well,
+# so let it contain object code rather than LLVM bitcode
+%define _disable_lto 1
 
 Name: libfixmath
-Version: 2022.06.03
+Version: 2022.09.02
 Release: 1
 Source0: https://github.com/PetteriAimonen/libfixmath/archive/refs/heads/master.tar.gz
 Patch0: https://salsa.debian.org/debian/libfixmath/-/raw/master/debian/patches/latomic.diff
