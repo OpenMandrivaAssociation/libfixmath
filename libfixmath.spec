@@ -7,7 +7,7 @@
 
 Name: libfixmath
 Version: 2022.09.02
-Release: 1
+Release: 2
 Source0: https://github.com/PetteriAimonen/libfixmath/archive/refs/heads/master.tar.gz
 Patch0: https://salsa.debian.org/debian/libfixmath/-/raw/master/debian/patches/latomic.diff
 Patch1: https://salsa.debian.org/debian/libfixmath/-/raw/master/debian/patches/tests-optional.diff
